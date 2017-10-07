@@ -30,12 +30,9 @@ function Wrapper() {
                                 <input className="btn promo-prev" id="promo-prev-id" name="promo-slider" type="radio"
                                        value="1" checked hidden/>
                                 <label className="checked" htmlFor="promo-prev-id">Сюда</label>
-
-
                                 <input className="btn promo-next" id="promo-next-id" name="promo-slider" type="radio"
                                        value="2" hidden/>
                                 <label htmlFor="promo-next-id">Туда</label>
-
                             </div>
                             <div className="promo-slides">
                                 <div className="promo-slide promo-slide-1">
@@ -53,7 +50,6 @@ function Wrapper() {
                                     <a href="#">Открыть каталог</a>
                                 </div>
                             </div>
-
                         </div>
                         <div className="item item-4">
                             <span>Скидки 50%</span>
@@ -227,14 +223,14 @@ function Wrapper() {
                         <div className="contact">
                             <h2>Контакты</h2>
                             <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-                            <a className="map" href="map.html"></a>
-                            <a className="search-us" href="contact.html">Заблудились? Напишите нам!</a>
+                            <a className="map" href="#" />
+                            <a className="search-us" href="#">Заблудились? Напишите нам!</a>
                         </div>
                     </section>
                 </div>
                 <div className="map-popup">
                     <button className="map-popup-close" type="button" title="Закрыть">Закрыть</button>
-                    <iframe src={mapPath} allowfullscreen height="445" width="939"></iframe>
+                    <iframe src={mapPath} height="445" width="939" />
                 </div>
                 <div className="contact-popup">
                     <button className="contact-popup-close" type="button" title="Закрыть">Закрыть</button>
@@ -249,13 +245,11 @@ function Wrapper() {
                         </div>
                         <div className="textarea">
                             <label className="comment-label" htmlFor="comment-field">Текст письма:</label>
-                            <textarea id="comment-field" name="comment">в свободной форме
-						</textarea>
+                            <textarea id="comment-field" name="comment">в свободной форме</textarea>
                         </div>
                         <div className="finish-input">
                             <input className="contact-popup-btn" type="submit" value="отправить"/>
                         </div>
-
                     </form>
                 </div>
             </main>
