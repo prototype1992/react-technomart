@@ -1,1 +1,1 @@
-# react-technomart
+# react-starter
