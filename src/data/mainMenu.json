@@ -1,0 +1,32 @@
+[
+  {
+    "id": "0",
+    "href": "/",
+    "text": "Главная"
+  },
+  {
+    "id": "1",
+    "href": "/about",
+    "text": "О компании"
+  },
+  {
+    "id": "2",
+    "href": "/catalog",
+    "text": "Каталог"
+  },
+  {
+    "id": "3",
+    "href": "/news",
+    "text": "Новости"
+  },
+  {
+    "id": "4",
+    "href": "/payment-and-delivery",
+    "text": "Оплата и Доставка"
+  },
+  {
+    "id": "5",
+    "href": "/contacts",
+    "text": "Контакты"
+  }
+]
